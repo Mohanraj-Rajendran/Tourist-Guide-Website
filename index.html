@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Guide Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+    <!-- Main Heading Image -->
+    <div>
+     <img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2023/05/the-good-times-masthead-174.png" alt="Main Head Img" >
+    </div>
+    <br>
+     <!-- Nav Bar -->
+     <nav>
+        <ul>
+            <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAZlBMVEX///8AAAAJCQkuLi7FxcV4eHh8fHz8/Pz19fXm5ubQ0NDMzMzt7e3d3d2wsLCnp6dnZ2eXl5dXV1cmJibW1tZDQ0OHh4dQUFC7u7ttbW1LS0thYWGRkZE0NDSfn585OTkWFhYcHBzCoFe+AAAEiElEQVR4nO2a63aqMBCFReUmeKmCotaq7/+SR1sziTCbJAq0a53Zv87RCF+TyZ6ZwGgkEolEIpFI9J8pz6Ld6bSLpjkesgwb+pz3yLQ8BQ+dlmBIMgkYjWd9IaWleZ8yZQd9cUxBcOiJKavNwYT96yMeKuiHadm8EbeEg0J9cHf6+FWofMXfatXYhcNB5Wtwq2BdpxoMaoaQ7qqF+1BQVRtTMK5+ASretjLd9BkPDgVC3NR+YKj52c705O4DQBUbF6abu1PG7R+KcXGkxVBQILnyWg4ClRzZq28KsKaruH+oOe/iu1v0zHfsV8e0b6iCv/bPdMS8T4zn/UIt+EtTWcAWDcGl6hEq/uRnYqGHLMbskGXYF1TMh/jlKffOLuyga09Q6YG97CF1GtYPVMbv+H3y+D5W+TfZDwYFQpxKgXi/p3/yodc5FLjPhUL8bl9rynQLPrC6hQIrspmqAT9uvinU/6eOGfsNqHnJXnBHIU5rSzOX8u7eHdQMJDVqDowM/aU+Q41OR1AoxNX3yVM2XKvdOHIK9xeZwLX1QtXWtmwuatdQOe/i+sBg2vySwn/GHrW8DZXzIb6h2VgyuW5MhwmpdRO+wFTxfhOpuElAng1pAKoOXocC7WZECQXusBUlHwuVLxK6HrW+xRXf7Eo+2t5IezKBpdEu3u7ajuP8mECMlsoxY2tP86VWGewWfyiwm7WLo1LSUKjGtri7DxMIhC3No1Mlp+s/eBriwQSuQS7u2rbrsgG5uzMS2OmbTA3waNvJR22Fq0UgLs9qLWK+jwL6UOGe8gc1JX5IYQjsYG3SfDaEOlrsfzJFJFqgcduqPxi07S2iKhkc/l0qxNL+Ox3irYevSFRS2EozVjlfi+sZ9ghxUxTuU97+wpbAAu5T0vx79E7Pok7MWu7XBTpuyviJdzhpUZUM/OYKHrKBBacQL5wOX5HOyketYWvIOhYUfM7Sm8zWbGsmkDPJxb0OOnlR+5Xx3+9rVLb48zq0gKKcAlrV8umZMmg3yYxBT+Oto9r6IC2YT1WB+1Daml27YTI2GUqg5Gi27ys+87wk/XALzcTPTPLuQ6XQ647JizYZKMrujgaebp6oPOskxE3Rw63ixH5/o+LveaRt+ZZj8jrTJuPDfT9i42VrmeI3tWl39/GIMyhy8Q4ckxf5KOfuJde3kFl0HOKmqIRiCrSqeWdy8dzxhPA17ZSPNtz9zhs/f0im63dI7y9qCmvpYvcdz4l5d5pW5jCsa1E9ay7W4ZHaUv0RuXhvIW6Kwt1wdypBs4cvTFShYj3r6kh0+qbedxpTqaQ2pja1N+peP61rJv1Uft5zcqg76KGYjLOE74qt9o7TvCqMuu8XoEbxrGp/b/A3oKwSKIESKIESKIH6C1DHqPk+fhhG7uchPUCZNZmpzPn0oQ8ocDA/FSiBEiiBEiiBEiiBEiiBEiiBEiiBEqj/Cuo6FNTFA8r1XYS3oVYeUOBdou6hwFESK9ur7V1BRY33uFrl8BL1XQjK7dch/2usbHWaWHVCJ3kuv135rJ1IJBKJRCLRX9U/50JNEoURwooAAAAASUVORK5CYII=" alt="Home button" width="20" height="20"></li>
+            <li>Find Trips</li>
+            <li>Articles</li>
+            <li>Tour Themes</li>
+            <li>About</li>
+            <li>Write For us</li>
+            <li><img src="data:image/png;base64,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" alt="search icon" width="20" height="20"></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Section-2 -->
+    <section class="sec-2">
+     <h4><a href="https://www.intrepidtravel.com/adventures/category/guides/" target="_blank">GUIDES</a></h4>
+     <h2>Visiting the Taj Mahal: Everything you need to know</h2>
+     <p>written by <a href="#">Bex Shapiro</a> | August 9, 2017</p>
+     <img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/08/India_Agra_taj_mahal_smile_194.jpg" alt="sec-2 image">
+     </section>
+
+     <!-- Section-3 -->
+
+     <section class="sec-3">
+     <h3>Is there a sight more iconic, more beautiful, more jaw-droppingly spectacular than the Taj Mahal? </h3>
+     <p>Quite honestly, we can’t think of one. <br>
+     At the very least, there’s no mausoleum more grand, no declaration of love more apparent than 
+     <br>
+     building a marble masterpiece for one’s favorite wife… And no better reason to travel than seeing  
+     its magnificence up close.
+     <br>
+     <br>
+     After all, this is art. Built in Agra, <a href="https://www.intrepidtravel.com/en/india">India</a> between 1631 and 1648, it’s also history. And, of course, it’s 
+     the perfect opportunity to take some otherworldly photos. So, to help visitors prepare for their Taj
+     Mahal travels, we’ve prepared a little guide, enlisting the help of some Intrepid experts – from 
+     Destination Managers to acclaimed trip leaders – to cover all the bases.
+     <br>
+     <br>
+    
+     Coming up: what to bring, where to take the best snaps, what else to see in Agra (and beyond), and 
+     so much more…</p>
+     </section>
+    
+    <!-- Section-4 -->
+
+    <section class="sec-4">
+        <h3>Before you arrive at the Taj Mahal</h3>
+        <p>
+            That old saying ‘patience is a virtue’ really comes into its own when discussing the Taj Mahal.
+            <br>
+            <br> 
+            Be prepared to be surrounded by hundreds (if not thousands) of people. These include Indian 
+            men, women and children who may ask to take photos with you. 
+            <br>
+            To prepare with the help of other travelers and a local tour guide, consider taking a group tour. 
+            Intrepid have Taj-visiting trips that range from <a href="https://www.intrepidtravel.com/en/india/indias-golden-triangle-143456">8-day Golden Triangle tours</a> (now with <a href="https://www.intrepidtravel.com/en/india">solo-only 
+            departures</a>!) to <a href="https://www.intrepidtravel.com/en/india/india-real-food-adventure-151125">15-day trips dedicated to food</a>, to 19-day trips combining the <a href="https://www.intrepidtravel.com/en/india/highlights-india-nepal-143752">highlights of India 
+            and Nepal</a>. 
+            <br>
+            <br>
+            If you’re more pressed for time, you can check out the Taj Mahal on a whirlwind day tour from  
+            <br>Delhi. Check out <span style="font-weight: bolder; color: black;">Urban Adventures</span> to see the itinerary that we’d recommend for this. And while <br>
+            you’re at it, check out their day trips in <a href="https://www.urbanadventures.com/en/delhi">Delhi</a>, <a href="https://www.urbanadventures.com/en/asia">Jaipur</a>, <span style="font-weight: bolder; color: black;">Varanasi</span> and <span style="font-weight: bolder; color: black;">Mumbai!</span>
+            <br>
+        </p>
+        <br>
+        <img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/08/india_agra_taj_mahal_local_friends.jpg" alt="sec-4 img" width="800">
+        <br>
+        <p>
+            The entrance queue can be pretty long during peak season but as long as you’re mentally 
+            <br>prepared, you’ll be fine. What’s to come is more than worth the wait…
+        </p>
+    </section>
+
+    <!-- Section-5 -->
+    <section class="sec-5">
+      <h3><span style="color: black;">What to bring to the Taj Mahal</span></h3>
+      <p>Always leave your valuables in the hotel. There are lockers available at the Taj but it’s best to have
+      <br>
+       minimal belongings on you so you don’t spend too much time checking in.</p>
+      <p>You really only need to bring the following in one small bag:</p>
+      <ul style="list-style-type: square;">
+        <li>Passport</li>
+        <li>Money</li>
+        <li>Water</li>
+        <li>Medicine</li>
+        <li>Camera</li>
+        <li>Phone</li>
+      </ul>
+    </section>
+
+    <!-- Section-6 -->
+        <section class="sec-6">
+        <h3>What to wear to the Taj Mahal</h3>
+        <p>There is no dress code but you should still be respectful. If you want to enter the mosque, you will need to cover your head, shoulders and knees.
+
+        It gets hot in Agra and there is very little shade, so wear light clothing and make sure you wear sunscreen. Then again, Agra also gets very cold in winter (Nov-Feb) so layers are your friend too.
+            
+        If you visit with Intrepid, you’ll be taken there earlier in the day or later in the afternoon to avoid the worst of the heat.</p>
+
+        <img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/08/India_Agra_taj_mahal_sunset_210.jpg" alt="" width="800">
+
+        <p><strong style="color: black;"> tip from Ryan Turner, Intrepid’s Destination Manager for India:</p></strong>
+
+        <p>Having been to the Taj a few times, I’ve learnt the importance of wearing shoes that are easy to remove. You need to take your shoes off when you go inside and the easier they are to slip on and off the better. This actually applies to much of India – shoes with loads of laces are hard!</p>
+        <br>
+
+        <h3>Other things you need to know</h3>
+        <p>No food is allowed inside.
+            <br>
+            <br>
+        Cigarettes and lighters are also not allowed.
+        <br>
+        <br>
+            
+        Tripods and additional lighting equipment need prior permission to be brought with. Photography inside the mausoleum is prohibited. Most electronics (except cameras and small video cameras) are not allowed.
+        <br>
+        <br>
+            
+        Be wary of touts, thieves and rude shop keepers. It’s a busy, high-pressure area, but keep your wits about you and you won’t need to worry!</p>
+        <br>
+
+        <h3>When you’re at the Taj Mahal</h3>
+            <p>Go early, wait for space to explore and photograph, and get yourself away from the crowds (if possible).</p>
+
+        <img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/08/India_Agra_taj_mahal_crowds_185.jpg" alt="" width="800">
+        
+        <p>If you walk around to the right side of the Taj (as you approach the east gate), you can get an amazing photo from the riverbank behind the Taj. (Always go in groups and get a rickshaw to take you there and back cheaply.)
+            <br><br>
+
+        And simply focus on taking in all the magic. Even Intrepid leaders who see the Taj Mahal monthly (or more!) remain in awe of it. Sana Jinah, one of the company’s inspiring female tour guides, has some tips on how to do this:</p>
+
+        <em><p style="color: rgb(24, 23, 23);">"The Taj Mahal is a place for exploring quietly on your own or with loved ones. So, once I’m done briefing my groups I give them a good 2-3 hours inside the Taj. There are ways I try to make the experience special and memorable for travelers, but if I say what they are then they will no longer be surprises!
+        The Taj has such a charm. Every time I see it it looks different (due to the direction of the sunlight). It’s so beautiful…"</p></em>
+
+        <p>She also recommends those looking for optimum conditions try visiting the Taj Mahal at sunrise on a clear day.
+        </p>
+
+        <h3>Tips for taking photos at the Taj Mahal</h3>
+
+        <p>Everyone wants that iconic shot of themselves at the Taj Mahal. You know the one – where you sit on the bench and the grandeur of the marble mausoleum forms the backdrop.</p>
+
+        <img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/08/india_agra_taj-mahal_taking-in-the-surroundings.jpg" alt="" width="800">
+
+        <p>But if you’re feeling creative and want to mix things up, there are tons of different angles worth seeking out.</p>
+        <br>
+        <p>Below are some photography suggestions from Intrepid’s General Manager in India, Pravin Tamang. (His photography is amazing – check it out!)</p>
+        <br>
+
+        <ul style="list-style-type: square;">
+            <li>Shot from the arch of the main doorway</li>
+            <li>Capture the reflection of the fountains that line the route towards the Taj Mahal’s main platform</li>
+            <li>Shot of Taj Mahal from the riverside with the reflection on the river</li>
+            <li>Shot from the other side of the river, ‘Mehtab Bagh’, where you get a glimpse of Taj</li>
+            <li>The Taj Mahal can also be shot from some parts of the Red Fort</li>
+        </ul>
+        <br>
+
+        <p>You can also get great photos from the many rooftops of restaurants close to the Taj Mahal. Unfortunately, Agra does get pretty smoggy, so winter can often have poor visibility earlier in the day and around sunset. That said, this can make shots look very atmospheric!</p>
+        <br>
+
+        <img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/08/india_agra_fog-taj-mahal.jpg" alt="" width="800">
+        <br>
+        
+        <h3>What to do after visiting the Taj Mahal</h3>
+        <p>First, go back to your hotel room, take a shower, and revel in the relative peace and quiet. Then explore these cool destinations both in and out of Agra:</p>
+        <br>
+        <h4>What to do in Agra</h4>
+        <p>
+            The Taj Mahal is, quite clearly, the star of the show in this northern Indian city. But the Agra Fort is also stunning, especially if you didn’t get a chance to go to the Red Fort in Delhi. A 16th-century Mughal monument and UNESCO World Heritage site, it’s a sight not to be missed.
+            <br>
+            <br>
+
+            Despite being located on the Golden Triangle tourist circuit, there’s less to do in Agra than in many other Indian cities. It’s pretty polluted from the heavy industry (more on that later) and you likely won’t spend too long there, whatever the trip.
+            <br>
+            <br>
+
+            One way that Intrepid tries to show visitors a different perspective on the country is by (sometimes) taking travelers to Sheroes Hangout. Just blocks from the Taj Mahal, it’s a small cafe run entirely by female acid attack survivors. Here, victims of attacks are employed and tell their stories. It can be confronting, but also inspiring and memorable in equal measures.
+        </p>
+        <br>
+
+        <p class="link-1"><a href="https://www.intrepidtravel.com/en/subscribe?utm_content=taj-mahal-travel-guide&utm_medium=subscriber-sitelink&utm_source=intrepid-blog">SUBSCRIBE TO INTREPID’S NEWSLETTER FOR MORE TRAVEL GUIDES, COMPETITIONS, GIVEAWAYS & MORE</a></p>
+        <br>
+
+        <h4>Where to go outside of Agra</h4>
+        
+        <p>There are various great destinations only a few hours drive (well, 4-7) from the Taj Mahal. Of these, Orchha, Jaipur and Pushkar are all tourist-friendly, peaceful and beautiful places.
+        <br>        
+        <br>
+
+        Orchha is a town that travelers often overlook. This is a shame, because it’s historic, laid-back and has a bunch of beautiful temples. It’s not always on tour itineraries, but you CAN visit it on this 15-day trip from Delhi to Kathmandu (cooking demo and palace visit included!).</p>
+        <br>
+
+        <div><img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/08/india_orchha_temple.jpg" alt="" title="Chaturbhuj Temple in Orchha" width="800">
+        <h5>Chaturbhuj Temple in Orchha</h5>
+        </div>
+
+        <p>Jaipur is much more well-known. Also known as the ‘Pink City’, the capital of Rajasthan is full of chaos, charm and unique architecture. Visit the hilltop Amber Fort, haggle in the enchanting bazaars, and consider taking a hot air balloon over the city to take it all in.
+            <br>
+            <br>
+        Pushkar is another underrated town. One of the oldest and most serene towns in India, it’s home to Pushkar Lake, a sacred spot for Hindus that’s utterly dazzling at sundown. Because of its holy nature, the vegetarian food here is simply unmissable. Visit on this 15-day trip all around Rajasthan.</p>
+        <br>
+
+        <h3>A final note about the Taj Mahal’s mud therapy</h3>
+        <p>
+        As you may have read or heard, the Taj Mahal has recently been undergoing a very thorough clean. Yep, to       be precise, a mud mask as of April 2018.
+            <br>
+            <br>
+
+        Why? Air pollution from factories in Agra had been slowly turning the Taj Mahal’s ivory-white surfaces yellow – and this was one way of restoring them to their former glory. The work – applying a clay traditionally used to clean marble to the entire structure of the Taj – was carried out by the Archaeological Survey of India. And this work was part of a series of restorative projects carried out on the historic site.
+        </p>
+
+        <img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/08/india_taj-mahal_sunset-1.jpg" alt="" width="800">
+        <p class="link-2"><a href="https://www.intrepidtravel.com/en/india">Check out Intrepid’s range of small group trips in India. We have an adventure for everyone.</a></p>
+
+    </section>
+
+    <!-- Back To Top Button -->
+     <section class="back-totop">
+        <div>
+            <a href="#"><i class="fa-solid fa-angle-up" style="color: #767779;"></i>
+         <h4>BACK TO TOP</a></h4>
+        </div>
+     </section>
+
+    <!-- FOOTER SECTION -->
+     <footer>
+        <div>
+         <img src="https://www.intrepidtravel.com/adventures/wp-content/themes/intrepid/images/b-corp-logo.svg" alt="" width="100" height="100">
+         <p style="color: white;">Intrepid is committed to using travel as a force for good. <a href="https://www.intrepidtravel.com/en">Find out more.</a></p>
+        </div>
+        <ul>
+            <li><a href="https://www.facebook.com/intrepidtravel"><img src="https://www.intrepidtravel.com/adventures/wp-content/themes/intrepid/images/facebook-logo.svg" alt="facebook-logo" width="30" height="30"></a></li>
+            <li><a href="https://www.instagram.com/intrepidtravel/"><img src="https://www.intrepidtravel.com/adventures/wp-content/themes/intrepid/images/instagram-logo.svg" alt="instagram-logo" width="30" height="30"></a></li>
+            <li><a href="https://www.tiktok.com/@intrepid_travel"><img src="https://www.intrepidtravel.com/adventures/wp-content/themes/intrepid/images/tiktok-logo.svg" alt="tiktok-logo" width="30" height="30"></a></li>
+            <li><a href="https://x.com/Intrepid_Travel?mx=2"><img src="https://www.intrepidtravel.com/adventures/wp-content/themes/intrepid/images/x-logo.svg" alt="twitter-logo" width="30" height="30"></a></li>
+            <li><a href="https://www.youtube.com/intrepidtravel"><img src="https://www.intrepidtravel.com/adventures/wp-content/themes/intrepid/images/youtube-logo.svg" alt="youtube-logo" width="30" height="30"></a></li>
+            <li><a href="https://au.linkedin.com/company/intrepid-travel"><img src="https://www.intrepidtravel.com/adventures/wp-content/themes/intrepid/images/linkedin-logo.svg" alt="linkedin-logo" width="30" height="30"></a></li>
+        </ul>
+     </footer>
+
+
+
+</body>
+</html>
